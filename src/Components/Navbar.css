@@ -1,0 +1,17 @@
+.logo-img{
+    height: 90px;
+    width: 90px;
+}
+.main-child{
+    background-image:url("/public/images/OIP.jfif ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+
+}
+.nav-btn{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
