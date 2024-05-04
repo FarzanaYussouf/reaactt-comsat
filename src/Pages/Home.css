@@ -3,5 +3,34 @@
     height: 340px;
     width: 240px;
     border-radius: 30px;
+
     
+}
+.campus-child img{
+    height: 260px;
+    width: 260px;
+}
+.campus-child button{
+    border-radius: black;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.fac-child img{
+height: 200px;
+width: 250px;
+border-radius: 10px;
+}
+.card-child img{
+    height: 70px;
+    width: 130px;
+ border-radius: 80%;
+}
+    
+   
+
+.card-first-child{
+    background-color: rgb(203, 203, 203);
+    border-radius: 20px;
 }

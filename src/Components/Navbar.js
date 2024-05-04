@@ -14,19 +14,19 @@ const Navbar = () => {
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav me-5 ">
                 <li class="nav-item me-3 fw-bold fs-5 ">
-                  <a class="nav-link active text-white" aria-current="page" to="/Home">Home</a>
+                  <a class="nav-link active text-black" aria-current="page" to="/Home">Home</a>
                 </li>
                 <li class="nav-item me-3 fw-bold fs-5">
-                  <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                  <a class="nav-link active text-black" aria-current="page" href="#">About</a>
                 </li>
                 <li class="nav-item me-3 fw-bold fs-5 ">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Course</a>
+                  <a class="nav-link active text-black" aria-current="page" href="#">Course</a>
                 </li>
                 <li class="nav-item me-3 fw-bold fs-5 ">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Blog</a>
+                  <a class="nav-link active text-black" aria-current="page" href="#">Blog</a>
                 </li>
                 <li class="nav-item me-3 fw-bold fs-5 ">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link active text-black" aria-current="page" href="#">Contact</a>
                 </li>
 
               </ul>
@@ -38,8 +38,8 @@ const Navbar = () => {
         </nav>
         <div className="row text-center mt-5">
           <div className="col-12">
-            <h1 className="text-white fw-bold fs-1">NO 1 IT UNIVERSITY OF PAKISTAN</h1>
-            <p className="mt-3 text-white fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas qui eveniet cum, ullam aspernatur  sint voluptatibus consequuntur dolor ratione id dolorum. Totam, ipsam.</p>
+            <h1 className="text-black fw-bold fs-1">NO 1 IT UNIVERSITY OF PAKISTAN</h1>
+            <p className="mt-3 fs-4 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas qui eveniet cum, ullam aspernatur  sint voluptatibus consequuntur dolor ratione id dolorum. Totam, ipsam.</p>
           </div>
           </div>
           <div className="row text-center mb-5">
