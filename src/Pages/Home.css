@@ -18,14 +18,17 @@
     padding: 10px 30px;
 }
 .fac-child img{
-height: 200px;
-width: 250px;
+height: 180px;
+width: 220px;
 border-radius: 10px;
 }
 .card-child img{
     height: 70px;
-    width: 130px;
- border-radius: 80%;
+    width: 110px;
+    border: none;
+ border-radius: 70%;
+ margin-top: 60px;
+ margin-left: 20px;
 }
     
    
@@ -33,4 +36,21 @@ border-radius: 10px;
 .card-first-child{
     background-color: rgb(203, 203, 203);
     border-radius: 20px;
+}
+.last-child{
+    background-image: url("/public/images/OIP\ \(1\).jfif");
+    background-repeat: no-repeat;
+    background-size: 30cm;
+    height: 300px;
+    width: 100%;
+  opacity: 50%;
+ 
+  
+ 
+    
+}
+.last-child button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
 }

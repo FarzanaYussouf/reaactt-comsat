@@ -8,17 +8,19 @@
     background-size: cover;
     height: 500px;
   opacity: 50%;
-    
-   
-
-    
-  
-    
-    
-
-}
+    }
 .nav-btn{
     border: none;
     border-radius: 30px;
     padding: 10px 30px;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+
+}
+.navbar-toggler-icon::after{
+    background-color: black;
 }
