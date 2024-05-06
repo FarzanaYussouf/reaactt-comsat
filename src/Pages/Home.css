@@ -43,7 +43,7 @@ border-radius: 10px;
     background-size: 30cm;
     height: 300px;
     width: 100%;
-  opacity: 50%;
+  opacity: 60%;
  
   
  
@@ -53,4 +53,30 @@ border-radius: 10px;
     border: none;
     border-radius: 30px;
     padding: 10px 20px;
+}
+.logo-img{
+    height: 90px;
+    width: 90px;
+}
+.main-child{
+    background-image:url("/public/images/OIP.jfif ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  opacity: 60%;
+    }
+.nav-btn{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+
+}
+.navbar-toggler-icon::after{
+    background-color: black;
 }

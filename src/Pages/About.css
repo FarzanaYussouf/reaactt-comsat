@@ -2,12 +2,12 @@
     height: 90px;
     width: 90px;
 }
-.main-child{
-    background-image:url("/public/images/OIP.jfif ");
+.main-child2{
+    background-image:url("/public/images/OIP (7).jfif ");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-  opacity: 60%;
+    height: 350px;
+  opacity: 40%;
     }
 .nav-btn{
     border: none;
@@ -23,4 +23,13 @@
 }
 .navbar-toggler-icon::after{
     background-color: black;
+}
+.about-btn button{
+    border-radius: 30px;
+   
+    padding: 10px 30px;
+
+}
+.about-child img{
+    width: 400px;
 }
