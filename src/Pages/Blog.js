@@ -162,12 +162,41 @@ const Blog = () => {
                     <div className="row">
                         <div className="col-6">
                             <p className="mt-3">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis in non aliquam nisi omnis fugiat officia. Odio dicta voluptatem enim. Rem aperiam error delectus excepturi voluptas consectetur iusto ipsa necessitatibus! Illum facere illo distinctio quis! <br /> <br />
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium eveniet, tempore quo illum ipsa. Atque dolore non laboriosam quidem, fugit quod? Itaque, eum vero sapiente tenetur repudiandae similique vitae libero minima aspernatur accusantium sed consequuntur. Velit dolor eum <br /> <br />
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia blanditiis adipisci commodi eum vel molestiae corrupti unde quam eveniet quia, nemo eius cumque aliquam illo laudantium tenetur vitae consequuntur accusamus quidem dolore porro <br /><br />
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni inventore vitae, sed magnam qui ullam reprehenderit a ipsam corrupti? Provident, tempore vero quae, corrupti quo assumenda ullam, voluptatum doloremque maxime non iusto laudantium quasi nam similique recusandae minima tenetur fuga.
-                            
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis in non aliquam nisi omnis fugiat officia. Odio dicta voluptatem enim. Rem aperiam error delectus excepturi voluptas consectetur iusto ipsa necessitatibus! Illum facere illo distinctio quis! <br /> <br />
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium eveniet, tempore quo illum ipsa. Atque dolore non laboriosam quidem, fugit quod? Itaque, eum vero sapiente tenetur repudiandae similique vitae libero minima aspernatur accusantium sed consequuntur. Velit dolor eum <br /> <br />
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia blanditiis adipisci commodi eum vel molestiae corrupti unde quam eveniet quia, nemo eius cumque aliquam illo laudantium tenetur vitae consequuntur accusamus quidem dolore porro <br /><br />
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni inventore vitae, sed magnam qui ullam reprehenderit a ipsam corrupti? Provident, tempore vero quae, corrupti quo assumenda ullam, voluptatum doloremque maxime non iusto laudantium quasi nam similique recusandae minima tenetur fuga.
+
                             </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div className="container mt-3 mb-3  ">
+                <div className="row">
+                    <div className="col-6 mt-3 mb-3 border border-3">
+                        <h3 className="mt-4 ">Leave A Comment</h3>
+                        <div class="input-group mb-3 mt-4">
+                            <input type="text" class="form-control" placeholder="Enter Name" aria-label="Recipient's username" aria-describedby="button-addon2" />
+
+                        </div>
+                        <div class="input-group mb-3 mt-4">
+                            <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2" />
+
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }}></textarea>
+                            <label for="floatingTextarea2">Comments</label>
+                        </div>
+                        <div className="row blog-2">
+                            <div className="col-6">
+                                <button className="mt-4 fw-bold mb-4">POST COMMENT</button>
+
+                            </div>
 
                         </div>
 

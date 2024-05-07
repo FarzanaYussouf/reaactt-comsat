@@ -2,3 +2,11 @@
     height: 420px;
     width: 500px;
 }
+.blog-2 button{
+    border-radius: 30px;
+    padding: 10px 30px;
+    
+}
+.form-control{
+    background-color: rgb(224, 223, 223);
+}
