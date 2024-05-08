@@ -21,7 +21,7 @@ const About = () => {
                                     <Link class="nav-link active text-black" aria-current="page" to="/About">About</Link>
                                 </li>
                                 <li class="nav-item me-3 fw-bold fs-5 ">
-                                    <Link class="nav-link active text-black" aria-current="page" to="#">Course</Link>
+                                    <Link class="nav-link active text-black" aria-current="page" to="/Course">Course</Link>
                                 </li>
                                 <li class="nav-item me-3 fw-bold fs-5 ">
                                     <Link class="nav-link active text-black" aria-current="page" to="/Blog">Blog</Link>
