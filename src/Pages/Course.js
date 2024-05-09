@@ -1,52 +1,50 @@
 import { Link } from "react-router-dom"
-import {facilities} from "../data"
+import { facilities } from "../data"
 const Course = () => {
-    return (
-        <>
-         <div className="container-fluid main-child2">
-                <nav class="navbar navbar-expand-lg ">
-                    <div class="container-fluid">
-                        <img className="logo-img ms-4" src="/images/logo.jfif" alt="" />
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav me-5 ">
-                                <li class="nav-item me-3 fw-bold fs-5 ">
-                                    <Link class="nav-link active text-black" aria-current="page" to="/">Home</Link>
-                                </li>
-                                <li class="nav-item me-3 fw-bold fs-5">
-                                    <Link class="nav-link active text-black" aria-current="page" to="/About">About</Link>
-                                </li>
-                                <li class="nav-item me-3 fw-bold fs-5 ">
-                                    <Link class="nav-link active text-black" aria-current="page" to="/Course">Course</Link>
-                                </li>
-                                <li class="nav-item me-3 fw-bold fs-5 ">
-                                    <Link class="nav-link active text-black" aria-current="page" to="/Blog">Blog</Link>
-                                </li>
-                                <li class="nav-item me-3 fw-bold fs-5 ">
-                                    <Link class="nav-link active text-black" aria-current="page" to="/Contact">Contact</Link>
-                                </li>
+  return (
+    <>
+      <div className="container-fluid main-child2">
+        <nav class="navbar navbar-expand ">
+          <div class="container-fluid">
+            <img className="logo-img ms-4" src="/images/logo.jfif" alt="" />
 
-                            </ul>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav me-5 ">
+                <li class="nav-item me-3 fw-bold fs-5 ">
+                  <Link class="nav-link active text-black" aria-current="page" to="/">Home</Link>
+                </li>
+                <li class="nav-item me-3 fw-bold fs-5">
+                  <Link class="nav-link active text-black" aria-current="page" to="/About">About</Link>
+                </li>
+                <li class="nav-item me-3 fw-bold fs-5 ">
+                  <Link class="nav-link active text-black" aria-current="page" to="/Course">Course</Link>
+                </li>
+                <li class="nav-item me-3 fw-bold fs-5 ">
+                  <Link class="nav-link active text-black" aria-current="page" to="/Blog">Blog</Link>
+                </li>
+                <li class="nav-item me-3 fw-bold fs-5 ">
+                  <Link class="nav-link active text-black" aria-current="page" to="/Contact">Contact</Link>
+                </li>
 
-                        </div>
-
-                    </div>
-
-                </nav>
-                <div className="row text-center mt-5">
-                    <div className="col-12">
-                        <h1 className="text-black fw-bold fs-1">COURSES</h1>
-
-                    </div>
-                </div>
-
-
+              </ul>
 
             </div>
-            <div className="container">
-            <div className="row text-center">
+
+          </div>
+
+        </nav>
+        <div className="row text-center mt-5">
+          <div className="col-12">
+            <h1 className="text-black fw-bold fs-1">COURSES</h1>
+
+          </div>
+        </div>
+
+
+
+      </div>
+      <div className="container">
+        <div className="row text-center">
           <div className="col-12 col-md-12 col-sm-12">
             <h2 className="mt-4">COURSE WE OFFER</h2>
             <p className="ms-5 me-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis officiis voluptates a unde impedit nisi nostrum temporibus esse quis, voluptas ab architecto obcaecati tempore nemo aut ducimus voluptatem repellendus sequi.</p>
@@ -96,9 +94,9 @@ const Course = () => {
           </div>
 
         </div>
-        </div>
-        
-        </>
-    )
+      </div>
+
+    </>
+  )
 }
 export default Course

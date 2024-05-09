@@ -4,12 +4,10 @@ const Contact = () => {
     return (
         <>
             <div className="container-fluid main-child2">
-                <nav class="navbar navbar-expand-lg ">
+                <nav class="navbar navbar-expand ">
                     <div class="container-fluid">
                         <img className="logo-img ms-4" src="/images/logo.jfif" alt="" />
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul class="navbar-nav me-5 ">
                                 <li class="nav-item me-3 fw-bold fs-5 ">
